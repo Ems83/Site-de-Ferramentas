@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to top, #000000, #370472);
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header input {
+  margin-top: 15px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+main section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+main section h2 {
+  color: #6a0ca8;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #37393a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #6a0ca8;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+mark {
+  background-color: #f4fc84;
+  padding: 0 2px;
+  border-radius: 3px;
+}
